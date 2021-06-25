@@ -102,7 +102,7 @@ def start_shell():
 def list_connections():
     res = ''
     no = 0
-    print("-------------Client-------------"+"\n")
+    print("\n\n"+"-------------Client-------------"+"\n")
     for i, conn in enumerate(all_conn):
         try:
             conn.send(str.encode(' '))
